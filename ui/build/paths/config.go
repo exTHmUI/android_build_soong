@@ -87,6 +87,7 @@ func GetConfig(name string) PathConfig {
 // run during the build. For more documentation, see path_interposer.go .
 var Configuration = map[string]PathConfig{
 	"bash":    Allowed,
+	"bison":   Allowed,
 	"brotli":  Allowed,
 	"ccache":  Allowed,
 	"cpio":    Allowed,
@@ -94,6 +95,7 @@ var Configuration = map[string]PathConfig{
 	"diff":    Allowed,
 	"dlv":     Allowed,
 	"expr":    Allowed,
+	"flex":    Allowed,
 	"fuser":   Allowed,
 	"getopt":  Allowed,
 	"git":     Allowed,
@@ -102,6 +104,7 @@ var Configuration = map[string]PathConfig{
 	"java":    Allowed,
 	"javap":   Allowed,
 	"lsof":    Allowed,
+	"m4":      Allowed,
 	"nproc":   Allowed,
 	"openssl": Allowed,
 	"pstree":  Allowed,
